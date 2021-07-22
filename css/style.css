@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Festive&family=Yomogi&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   font-family: 'Dancing Script', cursive;
+}
+
+a{
+    text-decoration: none;
+    color: cornsilk;
+}
+
+ul{
+    list-style: none;
+}
+
+header{
+    background-color: rgb(255, 195, 240);
+    display: flex; 
+    justify-content: space-between;
+
+}
+
+.menu-navegacion{
+    display: flex;
+}
+
+.menu-navegacion li :hover{
+    background-color: rgb(253, 180, 194);
+    
+}
+
+.menu-navegacion li:hover ul{
+    display: block;
+    /*background-color: rgb(248, 171, 197);*/
+    
+}
+
+
+
+img{
+    width: 100px;
+}
+
